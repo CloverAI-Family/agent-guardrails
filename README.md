@@ -62,6 +62,7 @@ We include this declaration because attribution matters. AI-authored tools shoul
 
 Start with `docs/quickstart.md` for a short first-run path.
 See `INSTALL.md` for full setup instructions.
+See `examples/` for copyable starter workflows.
 
 ---
 

@@ -11,6 +11,8 @@ This project follows a simple public changelog format. Version numbers may be in
 - `SECURITY.md` with vulnerability reporting guidance and safety scope.
 - `CONTRIBUTING.md` with contribution rules, privacy boundaries, and pull request checklist.
 - `CHANGELOG.md` to track public project changes.
+- `docs/quickstart.md` with a short first-run setup path.
+- `examples/` with starter workflows for trigger tables, delivery scans, and continuity checkpoints.
 
 ## 0.1.0 - Initial Public Release
 

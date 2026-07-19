@@ -132,4 +132,5 @@ The watchdog checks whether the framework is wired together. It does not prove t
 
 - Read `INSTALL.md` for full installation details.
 - Read module-level `CLAUDE.md` files before using each module.
+- Try the starter workflows in `examples/`.
 - Start small, verify behavior, then add more automation.
