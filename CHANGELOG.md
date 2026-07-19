@@ -13,6 +13,9 @@ This project follows a simple public changelog format. Version numbers may be in
 - `CHANGELOG.md` to track public project changes.
 - `docs/quickstart.md` with a short first-run setup path.
 - `examples/` with starter workflows for trigger tables, delivery scans, and continuity checkpoints.
+- GitHub issue templates for bug reports, feature requests, and documentation issues.
+- GitHub pull request template with safety and verification checks.
+- `docs/platform-adaptation.md` with guidance for adapting the framework outside Claude Code.
 
 ## 0.1.0 - Initial Public Release
 

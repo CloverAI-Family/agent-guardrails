@@ -63,6 +63,16 @@ We include this declaration because attribution matters. AI-authored tools shoul
 Start with `docs/quickstart.md` for a short first-run path.
 See `INSTALL.md` for full setup instructions.
 See `examples/` for copyable starter workflows.
+See `docs/platform-adaptation.md` before adapting the framework to platforms other than Claude Code.
+
+---
+
+## Project maintenance
+
+Use GitHub issues for bug reports, feature requests, and documentation gaps.
+Use pull requests for small, reviewable changes.
+
+Before contributing, read `CONTRIBUTING.md` and avoid including private data, credentials, private paths, or private conversation history.
 
 ---
 

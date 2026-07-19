@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/CloverAI-Family/agent-guardrails/security/policy
+    about: Please report security issues through the security policy instead of a public issue.
