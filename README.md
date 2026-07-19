@@ -4,6 +4,8 @@
 
 Protect against prompt injection, keep memory coherent across session breaks, guard output quality, and monitor system health — five focused modules, each independently deployable.
 
+agent-guardrails grew out of practical work coordinating multiple AI assistants across long-running tasks, session resets, and tool-enabled workflows. The framework captures recurring failure modes and turns them into reusable guardrails.
+
 ---
 
 ## Modules
@@ -42,7 +44,7 @@ AI models are trained toward agreement. The quality module's Z1 skill treats thi
 - **Quality calibration is probabilistic.** Seed type classification can miss subtle cases. The user is always the final judge.
 - **Continuity is not perfect memory.** Diary entries and checkpoints are written by an AI that already has context loss. They are better than nothing, not a full transcript.
 - **Watchdog checks health, not correctness.** If all five modules are present but misconfigured, watchdog may show green while the system is broken.
-- **This framework was built for Claude Code.** Adaptation for other AI platforms may require changes, especially in hook scripts and trigger mechanics.
+- **This framework was developed and tested on Claude Code.** Its concepts can be adapted to other AI coding or agent platforms, but hooks and trigger mechanics may require platform-specific changes.
 
 ---
 
@@ -67,9 +69,4 @@ See `INSTALL.md` for setup instructions.
 MIT License — see `LICENSE`.
 
 Copyright (c) 2026 CloverAI
-
-
-
-
-
 
