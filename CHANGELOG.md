@@ -16,6 +16,7 @@ This project follows a simple public changelog format. Version numbers may be in
 - GitHub issue templates for bug reports, feature requests, and documentation issues.
 - GitHub pull request template with safety and verification checks.
 - `docs/platform-adaptation.md` with guidance for adapting the framework outside Claude Code.
+- `docs/modules.md` with a one-page overview of the five modules.
 
 ## 0.1.0 - Initial Public Release
 
