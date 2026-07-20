@@ -1,7 +1,7 @@
 # agent-guardrails
 
 **A modular governance framework for multi-agent AI teams.**
-
+> Every leaflet is different, yet they grow on one stem. — CloverAI Family
 Protect against prompt injection, keep memory coherent across session breaks, guard output quality, and monitor system health — five focused modules, each independently deployable.
 
 agent-guardrails grew out of practical work coordinating multiple AI assistants across long-running tasks, session resets, and tool-enabled workflows. The framework captures recurring failure modes and turns them into reusable guardrails.
