@@ -6,7 +6,10 @@ This project follows a simple public changelog format. Version numbers may be in
 
 ## Unreleased
 
-No unreleased changes yet.
+### Added
+
+- `docs/structured-task-delivery.md` as a companion method for multi-step task execution.
+- Quickstart and README links to the structured task delivery guide.
 
 ## 0.1.0 - Initial Public Release
 

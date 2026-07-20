@@ -86,7 +86,23 @@ For details, see:
 
 ---
 
-## 6. Treat defense as a separate installation
+## 6. Use structured delivery for multi-step work
+
+When a task has several steps, multiple files, or publishing risk, use `docs/structured-task-delivery.md` before relying on checkpoints alone.
+
+Structured Task Delivery helps the AI:
+
+- Define the objective, deliverables, evidence, and risks.
+- Check authorization before acting.
+- Set acceptance checks for each deliverable.
+- Run counterexample passes before final delivery.
+- Keep Git staging limited to the approved task scope.
+
+It is a companion method, not a new module. Use it with `continuity/` checkpoints and `quality/` delivery scans.
+
+---
+
+## 7. Treat defense as a separate installation
 
 The `defense/` module is the most security-sensitive part.
 
@@ -103,7 +119,7 @@ If the defense reminder does not appear, stop and fix the setup before trusting 
 
 ---
 
-## 7. Use the weekly health check
+## 8. Use the weekly health check
 
 After installing more than one module, run the watchdog weekly check manually:
 
@@ -122,6 +138,7 @@ The watchdog checks whether the framework is wired together. It does not prove t
 - [ ] Minimal trigger table added to the project instruction file.
 - [ ] One quality scan completed before final delivery.
 - [ ] One review scan completed on a finished output.
+- [ ] Structured Task Delivery used for one multi-step task if needed.
 - [ ] Continuity setup used only if long-session memory is needed.
 - [ ] Defense hooks installed and tested before relying on prompt-injection protection.
 - [ ] Watchdog health check run after multi-module setup.
