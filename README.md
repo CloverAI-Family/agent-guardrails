@@ -64,6 +64,7 @@ Start with `docs/quickstart.md` for a short first-run path.
 See `INSTALL.md` for full setup instructions.
 See `docs/modules.md` for a one-page overview of the five modules.
 See `docs/structured-task-delivery.md` for a lightweight execution method for multi-step tasks.
+See `docs/hooks.md` before installing or adapting any executable hook scripts.
 See `examples/` for copyable starter workflows.
 See `docs/platform-adaptation.md` before adapting the framework to platforms other than Claude Code.
 

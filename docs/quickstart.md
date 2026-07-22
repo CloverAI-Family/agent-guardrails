@@ -111,9 +111,10 @@ Do not assume it is active just because the files exist. For Claude Code, the ha
 Before relying on defense:
 
 1. Read `INSTALL.md`.
-2. Read `defense/TEST.md`.
-3. Install hooks for your environment.
-4. Verify that the expected defense reminder appears.
+2. Read `docs/hooks.md` to understand what each executable hook should and should not do.
+3. Read `defense/TEST.md`.
+4. Install hooks for your environment.
+5. Verify that the expected defense reminder appears.
 
 If the defense reminder does not appear, stop and fix the setup before trusting the module.
 

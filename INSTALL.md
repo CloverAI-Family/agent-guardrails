@@ -28,6 +28,9 @@ Each module is independently functional.
 The defense module's hard protection layer uses Claude Code hooks.
 These are shell scripts that intercept tool calls before they execute.
 
+Before installing hooks, read `docs/hooks.md`.
+Hooks are executable local scripts, so a cautious AI assistant or human operator should inspect what each hook reads, writes, triggers on, and how it can be disabled.
+
 Hook scripts are **not included** in this package — they depend on your local environment paths.
 You will need to write them yourself based on the patterns in `defense/TEST.md`.
 
@@ -42,6 +45,10 @@ To install:
 4. Run the verification test described in `defense/TEST.md`
 
 **If the expected [defense reminder] message does not appear after installation, stop and fix before trusting the defense module.**
+
+If your AI assistant refuses to modify global hook configuration automatically, do not treat that as a failure.
+That is an appropriate safety response for executable automation.
+Use `docs/hooks.md` to review the expected behavior, then install manually if the machine policy allows it.
 
 ---
 

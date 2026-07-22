@@ -8,6 +8,7 @@ This project follows a simple public changelog format. Version numbers may be in
 
 ### Added
 
+- `docs/hooks.md` with transparent expected behavior, review checks, and verification guidance for optional executable hooks.
 - `docs/structured-task-delivery.md` as a companion method for multi-step task execution.
 - Quickstart and README links to the structured task delivery guide.
 
